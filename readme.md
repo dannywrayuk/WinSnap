@@ -1,5 +1,4 @@
-# WinSnap
-## Snap and move windows with keyboard shortcuts
+# WinSnap: Snap and move windows with keyboard shortcuts
 
 I have a super ultrawide monitor and snapping windows to half the screen isn't enough.
 
