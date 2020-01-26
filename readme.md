@@ -13,12 +13,12 @@ linux: python
 
 ### Controls
 
-**Win+Alt+Left:** Snap a window to the left. Repeated presses decrease the size of the window. 
-**Win+Alt+Right:** Snap a window to the right. Repeated presses decrease the size of the window.
-**Win+Alt+Up:** Center the window.
-**Win+Alt+Down:** Increase window size by smallest allowed increment (1/6 of the screen width).
-**Ctrl+Win+Alt+Left:** Move a window left by smallest increment.
-**Ctrl+Win+Alt+Right:** Move a window right by smallest increment.
+**Win+Alt+Left:** Snap a window to the left. Repeated presses decrease the size of the window. \\
+**Win+Alt+Right:** Snap a window to the right. Repeated presses decrease the size of the window.\\
+**Win+Alt+Up:** Center the window.\\
+**Win+Alt+Down:** Increase window size by smallest allowed increment (1/6 of the screen width).\\
+**Ctrl+Win+Alt+Left:** Move a window left by smallest increment.\\
+**Ctrl+Win+Alt+Right:** Move a window right by smallest increment.\\S
 
 Linux Specifics
 
