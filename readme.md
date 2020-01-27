@@ -36,4 +36,10 @@ cd Linux
 ./Install.S
 ```
 ### Windows
-After installing [Auto Hot Key](https://www.autohotkey.com/), clone the repo and run the script in the windows folder.
+If you're lazy, download the windows folder and run the script inside it.
+But if you're xXhacker_pro_420Xx like me, do this
+```
+git clone https://github.com/dannywrayuk/winsnap.git
+cd Windows
+Install.bat
+```
