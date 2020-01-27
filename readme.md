@@ -17,8 +17,8 @@ Linux: python and the gtk module
 **Win+Alt+Right:** Snap a window to the right. Repeated presses decrease the size of the window.  
 **Win+Alt+Up:** Center the window.  
 **Win+Alt+Down:** Increase window size by smallest allowed increment (1/6 of the screen width).  
-**Ctrl+Win+Alt+Left:** Move a window left by smallest increment.  
-**Ctrl+Win+Alt+Right:** Move a window right by smallest increment.  
+**Ctrl+Win+Alt+Left:** Move a window left by size of window.  
+**Ctrl+Win+Alt+Right:** Move a window right by by size of window.  
 **Ctrl+Win+Alt+Down:** Some windows have a huge invisible border, this might fix that. It also might not, it's a tricky issue.
 
 Linux Specific
