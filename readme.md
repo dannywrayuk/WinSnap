@@ -2,14 +2,14 @@
 ### Snap and move windows with keyboard shortcuts
 
 I have a super ultrawide monitor and snapping windows to half the screen isn't enough.
-Inspired by [Spectacle](https://www.spectacleapp.com/) for mac, this little gadet lets you snap windows into halfs, thirds, quaters and sixths.
+Inspired by [Spectacle](https://www.spectacleapp.com/) for mac, this little gadet lets you snap windows into halfs, thirds, quarters and sixths.
 Works on windows and linux.
 
-### Prerequisites
+### Requirements
  
-windows: [auto hot key](https://www.autohotkey.com/)
+Windows: [Auto Hot Key](https://www.autohotkey.com/)
 
-linux: python
+Linux: python and the gtk module
 
 ### Controls
 
@@ -19,10 +19,21 @@ linux: python
 **Win+Alt+Down:** Increase window size by smallest allowed increment (1/6 of the screen width).  
 **Ctrl+Win+Alt+Left:** Move a window left by smallest increment.  
 **Ctrl+Win+Alt+Right:** Move a window right by smallest increment.  
+**Ctrl+Win+Alt+Down:** Some windows have a huge invisible border, this might fix that. It also might not, it's a tricky issue.
 
-Linux Specifics
+Linux Specific
+**Ctrl+Alt+Up:** Show/Hide the window decoration such as titlebar and borders.  
 
-**Win+Alt+D:** Show/Hide the window decoration such as titlebar and borders.  
-**Win+Alt+F:** Some windows on linux (usually default apps like settings and the file browser) have a huge invisible border, this might fix that - also might not idk what causes it.
+### Installation
 
+### Linux
 
+Clone the Repo somewhere on your computer and cd into the Linux directory then simply run Install.S
+
+```
+git clone https://github.com/dannywrayuk/winsnap.git
+cd Linux
+./Install.S
+```
+### Windows
+After installing [Auto Hot Key](https://www.autohotkey.com/), clone the repo and run the script in the windows folder.
