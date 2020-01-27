@@ -2,7 +2,7 @@
 ### Snap and move windows with keyboard shortcuts
 
 I have a super ultrawide monitor and snapping windows to only half the screen isn't enough. Thats the only option you have on most operating systems though.
-Inspired by [Spectacle](https://www.spectacleapp.com/) for mac, this little gadget lets you snap windows into halfs, thirds, quarters and sixths.
+Inspired by [Spectacle](https://www.spectacleapp.com/) for mac, this little gadget lets you snap windows into halves, thirds, quarters and sixths.
 Works on windows and linux.
 
 ### Requirements
