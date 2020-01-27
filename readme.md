@@ -7,7 +7,7 @@ Works on windows and linux.
 
 ### Requirements
  
-Windows: [Auto Hot Key](https://www.autohotkey.com/)
+Windows: [Auto Hot Key](https://www.autohotkey.com/) if you would like to edit the script, otherwise it's standalone.
 
 Linux: python and the gtk module
 
