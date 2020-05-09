@@ -1,8 +1,10 @@
-#!/usr/bin/python
-from gtk.gdk import *
-import gtk.gdk
+#!/usr/bin/env python3
+import common as c
+import gi
+gi.require_version('Gdk', '3.0')
+from gi.repository import Gdk
 
-w = gtk.gdk.get_default_root_window().get_screen().get_active_window()
-w.set_decorations(1-int(w.get_decorations()))
-window_process_all_updates()
-gtk.gdk.flush()
+window = Gdk.Screen.get_active_window(Gdk.Screen.get_default())
+window.set_decorations(Gdk.WMDecoration(
+    window.get_decorations().decorations != 1))
+c.update(window)

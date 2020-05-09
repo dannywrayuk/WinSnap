@@ -1,24 +1,31 @@
-from gtk.gdk import *
-import gtk.gdk
+#!/usr/bin/env python3
+import gi
+gi.require_version('Gdk', '3.0')
+from gi.repository import Gdk
+
 
 def init():
-    screen = gtk.gdk.get_default_root_window().get_screen()
-    width = screen.get_width()
-    height = screen.get_height()
-    window = screen.get_active_window()
+    screenGeometry = Gdk.Monitor.get_workarea(
+        Gdk.Display.get_primary_monitor(Gdk.Display.get_default()))
+    width = screenGeometry.width
+    height = screenGeometry.height
+    window = Gdk.Screen.get_active_window(Gdk.Screen.get_default())
+    windowGeometry = window.get_geometry()
+    p = [windowGeometry.x, windowGeometry.y]
+    s = [windowGeometry.width, windowGeometry.height]
+    print([window, p, s, width, height])
+    return [window, p, s, width, height]
 
-    p = window.get_position()
-    s = window.get_size()
-    print([window,p,s,width,height])
-    return [window,p,s,width,height]
 
-def update():
-    window_process_all_updates()
-    gtk.gdk.flush()
+def update(window):
+    window.process_all_updates()
+    Gdk.flush()
+
 
 def window_init(window):
     window.unmaximize()
     window.set_decorations(0)
 
-def apx(a,b):
+
+def apx(a, b):
     return abs(a - b) < 10

@@ -1,5 +1,4 @@
-#!/usr/bin/python
-from gtk.gdk import *
+#!/usr/bin/env python3
 import common as c
 
 [window, p, s, width, height] = c.init()
@@ -11,6 +10,6 @@ if val > width:
     val = width
 
 if val <= width:
-    window.move(val,p[1])
+    window.move(val, p[1])
 
-c.update()
+c.update(window)
