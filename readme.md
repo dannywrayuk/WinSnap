@@ -21,8 +21,9 @@ Linux: python and the gtk module
 **Ctrl+Win+Alt+Right:** Move a window right by by size of window.  
 **Ctrl+Win+Alt+Down:** Some windows have a huge invisible border, this might fix that. It also might not, it's a tricky issue.
 
-Linux Specific
-**Ctrl+Alt+Up:** Show/Hide the window decoration such as titlebar and borders.  
+**Ctrl+Alt+Up:** 
+Linux: Show/Hide the window decoration such as titlebar and borders. 
+Windows: Show/Hide the taskbar.
 
 ### Installation
 
